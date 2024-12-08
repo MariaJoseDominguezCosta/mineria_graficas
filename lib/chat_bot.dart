@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class ChatBot extends StatefulWidget {
-  const ChatBot({Key? key}) : super(key: key);
+  const ChatBot({super.key});
 
   @override
   State<ChatBot> createState() => _ChatBotState();
